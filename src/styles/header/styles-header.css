@@ -1,0 +1,29 @@
+.header {
+  text-align: center;
+}
+.header .title-header {
+  display: flex;
+  justify-content: center;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 300;
+  font-style: normal;
+  color: #5eeb5e;
+  font-size: 1.5rem;
+}
+.header li {
+  list-style-type: none;
+}
+.header .title-link {
+  text-decoration: none;
+  color: #5eeb5e;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+}
+.header .title-link:hover {
+  color: #ffffff;
+}
+.header .div-nav {
+  text-align: center;
+}/*# sourceMappingURL=styles-header.css.map */

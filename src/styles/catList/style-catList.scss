@@ -1,0 +1,46 @@
+body{
+    background-color:#1a191e;
+}
+.cats-article {
+
+    display: block;
+    text-align: center;
+
+
+    .cats-images {
+        width: 30rem;
+        border-radius: 5px;
+
+    }
+
+    .breed-info {
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        color: #ffffff;
+    }
+}
+
+
+.refresh-button-div{
+    display: flex;
+    justify-content: center;
+
+    button{
+        padding: 10px 20px;
+        background-color: #4CAF50;    
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        color: #ffffff;
+
+        &:hover{
+            color: #1c3a1d;
+        }
+    }
+}

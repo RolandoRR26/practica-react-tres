@@ -1,0 +1,43 @@
+
+.login-h1{
+    text-align: center;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #dae8da;
+    font-size: 4rem;
+}
+
+form{
+    text-align: center;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 300;
+    font-style: normal;
+    color: #dae8da;
+    font-size: 1.4rem;
+
+    input{
+        border-radius: 5px;
+        width: 10rem;
+        height: 1.3rem;
+    }
+
+    button{
+        padding: 10px 20px;
+        margin-top: 1rem;
+        background-color: #4CAF50;    
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: "Luckiest Guy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 2rem;
+        color: #ffffff;
+
+        &:hover{
+            color: #1c3a1d;
+        }
+    }
+
+}
